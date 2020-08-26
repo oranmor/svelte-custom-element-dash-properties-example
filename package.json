@@ -1,0 +1,17 @@
+{
+  "name": "svelte-custom-element-dash-properties-example",
+  "version": "1.0.0",
+  "author": "Denis Kurochkin",
+  "license": "MIT",
+  "devDependencies": {
+    "svelte": "^3.24.1",
+    "svelte-loader": "^2.13.6",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "dev": "webpack-dev-server --content-base public"
+  }
+}
